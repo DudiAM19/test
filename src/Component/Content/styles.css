@@ -1,0 +1,159 @@
+.box {
+    display: flex;
+    flex-direction: row;
+}
+/* @media only screen and (max-width: 600px){
+    
+} */
+
+@media (max-width: 800px) {
+    .box {
+      flex-direction: column;
+    }
+  }
+
+.basket {
+    /* background-color: white; */
+    margin-top: 10px;
+    height: auto;
+    width: 600px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.cekout {
+    /* background-color: darkorange; */
+    height: 300px;
+    width: auto;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.h4Cart{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.blueDenimSection{
+    margin: 10px;
+    background-color: white;
+    height: auto;
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .blueDenimSection {
+      flex-direction: column;
+    }
+  }
+
+
+.imgSection {
+    background-color: white;
+    height: auto;
+    width: 100px;
+    padding-bottom: 100px;
+    margin-top: -40px;
+    /* margin-left: -100px;// */
+}
+
+.detail {
+    height: 190px;
+    width: auto;
+    background-color: white;
+    flex: 1;
+    margin-left: 30px;
+    margin-top: -62px;
+}
+
+.add {
+    height: 190px;
+    width: auto;
+    background-color: white;
+    margin-top: -62px;
+}
+
+.clothName {
+    margin: 20px;
+    margin-left: -20px;
+}
+
+.type {
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: -15px;
+    margin-left: -20px;
+}
+
+.color {
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: -8px;
+    margin-left: -20px;
+}
+
+.rmvTxt {
+    font-size: 10px;
+    margin-top: -5px;
+}
+
+button {
+    height: 20px;
+    width: auto;
+    margin-left: 2px;
+}
+
+.btn {
+    display: flex;
+}
+
+.BsFillTrashFill {
+    margin-top: -5px;
+    margin-right: 2px;
+}
+
+.add {
+    margin-top: -30px;
+}
+
+.btnCount {
+    margin-top: -9px;
+}
+
+.btnbtn {
+    display: flex;
+}
+
+.noteText {
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.price {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 57px;
+    margin-left: 70px;
+}
+
+.section {
+    margin: 20px;
+}
+
+.temporarySection, .shippingSection, .totalSection {
+    display: flex;
+}
+
+.temporaryAmount, .textShipping, .textTotal {
+    font-size: 12px;
+    font-weight: lighter;
+    flex: 1;
+}
+
+.btnLg {
+    margin-top: -7px;
+    font-size: 10px;
+    margin-left: 20px;
+}
